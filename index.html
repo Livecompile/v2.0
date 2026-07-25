@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiveCompile | Multi-Language Online Code Editor & Playground</title>
+    <meta name="description" content="LiveCompile is a powerful online code editor supporting Python, JavaScript, C++, Java, and more. Live preview web code and execute backend logic with high-performance AI." />
+    <meta name="keywords" content="online code editor, python compiler, javascript playground, html preview, c++ runner, online ide, programming environment" />
+    <meta name="author" content="LiveCompile" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LiveCompile | Multi-Language Online Code Editor & Playground" />
+    <meta property="og:description" content="LiveCompile is a powerful online code editor supporting Python, JavaScript, C++, Java, and more." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="LiveCompile | Multi-Language Online Code Editor & Playground" />
+    <meta property="twitter:description" content="LiveCompile is a powerful online code editor supporting Python, JavaScript, C++, Java, and more." />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <script>
+      // Suppress ResizeObserver loop limit exceeded errors immediately
+      window.addEventListener('error', (e) => {
+        if (e.message === 'ResizeObserver loop completed with undelivered notifications.' || 
+            e.message === 'ResizeObserver loop limit exceeded') {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
