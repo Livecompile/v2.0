@@ -1,0 +1,12 @@
+{
+  "name": "LiveCompile - Multi-Language Online Code Editor & Playground",
+  "description": "LiveCompile is a fast, powerful online code editor and playground for web development and multi-language execution. Edit, run, and preview Python, JavaScript, HTML, CSS, C++, Java, and more with AI-powered execution.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
